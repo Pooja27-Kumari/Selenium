@@ -17,7 +17,7 @@ public void launch() {
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	driver.get("https://www.ferrari.com/en-IN");
-	Reporter.log("Ferrai launched successful", true);
+	Reporter.log("Ferrai launched successfully and modified", true);
   
 }
 }
