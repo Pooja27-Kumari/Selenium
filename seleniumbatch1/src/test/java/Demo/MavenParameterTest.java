@@ -11,7 +11,7 @@ public class MavenParameterTest {
 		String URL = System.getProperty("url");
 	WebDriver driver = new ChromeDriver();
 	driver.get(URL);
-		System.out.println(URL);
+		//System.out.println(URL);
 	}
 
 }
